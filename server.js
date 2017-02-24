@@ -24,6 +24,7 @@ var routes = require("./controllers/burgersController.js");
 
 app.use("/", routes);
 app.use("/update", routes);
-app/use("/create", routs);
+app.use("/create", routes);
+
 
 app.listen(port);
